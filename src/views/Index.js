@@ -43,8 +43,8 @@ import Datepicker from './IndexSections/Datepicker.js';
 import TooltipPopover from './IndexSections/TooltipPopover.js';
 import Carousel from './IndexSections/Carousel.js';
 import Icons from './IndexSections/Icons.js';
-import Login from './IndexSections/Login.js';
-// import Download from './IndexSections/Download.js';
+// import Login from './IndexSections/Login.js';
+import Download from './IndexSections/Download.js';
 
 class Index extends React.Component {
   componentDidMount() {
@@ -87,8 +87,8 @@ class Index extends React.Component {
           </section>
           <Carousel />
           <Icons />
-          <Login />
-          {/* <Download /> */}
+          {/* <Login /> */}
+          <Download />
         </main>
         <CardsFooter />
       </>

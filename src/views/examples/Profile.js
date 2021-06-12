@@ -146,9 +146,9 @@ class Profile extends React.Component {
                     <Row className='justify-content-center'>
                       <Col lg='9'>
                         <p>
-                          Motivated and determine engineer, After about five
-                          years of experience in the medical market as a Middle
-                          East Sales Coordinator at Angelantoni Life Science, I
+                          Motivated and dedicated, After about five years of
+                          experience in the medical market as a Middle East
+                          Sales Coordinator at Angelantoni Life Science, I
                           recently started planning to make a career shift and
                           get into the software development world, I hope to
                           become a Full Stack Developer with professional

@@ -64,7 +64,13 @@ class Landing extends React.Component {
         <main ref='main'>
           <div className='position-relative'>
             {/* shape Hero */}
-            <section className='section section-lg section-shaped pb-250'>
+            <section
+              className='section section-lg section-shaped pb-250'
+              style={{
+                backgroundImage:
+                  'URL(https://images.unsplash.com/photo-1620137470296-6815c68ac6bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)',
+              }}
+            >
               <div className='shape shape-style-1 shape-default'>
                 <span />
                 <span />
@@ -90,7 +96,7 @@ class Landing extends React.Component {
                         creativity, and they can be shaped by their user.”
                         {'   '}
                         <br />
-                        <span>Bill Gates</span>
+                        {/* <span>Bill Gates</span> */}
                       </p>
                       {/* <div className='btn-wrapper'>
                         <Button
